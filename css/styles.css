@@ -594,11 +594,7 @@
     color:var(--general-color);
    }
    
-   .label_button {
-    display:flex;
-    align-items: flex-end;
-    width: 570px;
-   }
+
 
    .input_subscription {
     width: 358px;
@@ -628,6 +624,8 @@
 
 
    .subscription_button {
+    position: relative;
+    top: 44px;
   width: 200px;
   height: 50px;
   background:var(--brand-color);
@@ -812,45 +810,47 @@
    background:var(--found-brand);
    }   
       .container-generals { 
-      margin: 0 auto;
-      padding-top: 60px;
-      padding-bottom: 60px;
-      background-color:var(--found-brand);
-      margin-bottom: 0px;
-      display: flex;
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        margin-bottom: 0px;
       }
          .container-generals .first-text {
           color:var(--brand-color);
           font-size: 26px;
           line-height: 1.19;
           font-weight: 700;
+          font-family: var(--second-text);
+
           }
        .container-address {
-       display: flex;
-       flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        font-style: normal;
+        letter-spacing: 0.03em;
        }
          .container-address .second-text {
           margin-top: 9px;
           color: #FFFFFF;
           font-size: 1.14; 
+          font-family: var(--principal-text);
+
           }
           .container-address .third-text {
-          margin-top: 2px;
-          color:var(--second-brand-text);
-          line-height: 1.14;
-          font-weight: 500;
+            margin-top: 2px;
+            color:var(--second-brand-text);
+            line-height: 1.14;
+            font-weight: 500;
+            font-family: var(--principal-text);
           }
            .container-address .third-text:hover {
            color:var(--brand-color);
            } 
-       .social-media {
-        margin-left: 100px;
-       }
-         .social-media .text {
-          margin-top: 14px;
-          color: #FFFFFF;
-          font-size: 1.14; 
-          }
+   
  
 
 

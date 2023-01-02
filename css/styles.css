@@ -233,7 +233,12 @@
     pointer-events: auto;
 
    }
+
+   /* TASK6*/
+
    .backdrop .modal {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     top: 10%;
     left: 33%;
@@ -243,6 +248,21 @@
     animation-name: blueOverlay;
     animation-duration: 2s;
    }
+
+   /* TASK6*/
+   .backdrop .title {
+    font-family: var(--principal-text);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: aqua;
+   }
+
+
 
 
    .is-hidden {
@@ -265,6 +285,8 @@
     top: 8px;
     right: -93%;
     overflow: hidden;
+    background-color: blueviolet;
+    margin-bottom: -10px;
    }
   
    .icon-paragrap {

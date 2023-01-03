@@ -247,6 +247,7 @@
     background-color: #FFFFFF;
     animation-name: blueOverlay;
     animation-duration: 2s;
+    align-items: center;
    }
 
    /* TASK6*/
@@ -261,6 +262,7 @@
     color: #212121;
     background-color: aqua;
     margin-bottom: -5px;
+    margin-top: 20px;
    }
 
 
@@ -306,6 +308,7 @@
   padding-right: 16px;
   padding-top: 12px;
   padding-bottom: 12px;
+  
 }
 
 .backdrop .data .input_comment::placeholder {
@@ -318,7 +321,7 @@
   color: rgba(117, 117, 117, 0.5);
 }
 
-.backdrop .conditions_text{
+.backdrop .conditions .conditions_text{
   font-family: var(--principal-text);
   font-style: normal;
   font-weight: 400;
@@ -326,6 +329,14 @@
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: -5px;
+  margin-left: 8px;
+}
+
+.backdrop .conditions {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
 }
 
 .backdrop .send_button {
@@ -341,6 +352,7 @@ font-weight: 700;
 font-size: 16px;
 line-height: 30px;
 color: var(--general-color);
+margin-top: -8px;
  }
 
    /* TASK6*/

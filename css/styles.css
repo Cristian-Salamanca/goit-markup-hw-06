@@ -260,10 +260,66 @@
     letter-spacing: 0.03em;
     color: #212121;
     background-color: aqua;
+    margin-bottom: -5px;
    }
 
 
+   .backdrop .data {
+    display: flex;
+    flex-direction: column;
+   }
 
+   .backdrop .data .text_data {
+    font-family: var(--principal-text);
+    font-weight: 400;   
+    font-size: 12px; 
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color:#757575;
+    margin-bottom: 4px;
+
+   }
+
+   .backdrop .data .input_data {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+   }
+
+.backdrop .data .input_comment {
+  width: 448px;
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.backdrop .conditions_text{
+  font-family: var(--principal-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.backdrop .send_button {
+width: 200px;
+height: 50px;
+background:var(--brand-color);
+border: none;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer;
+font-family: var(--principal-text);
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+color: var(--general-color);
+ }
+
+   /* TASK6*/
 
    .is-hidden {
     display: none;

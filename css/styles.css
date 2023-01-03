@@ -265,8 +265,8 @@
 
 
    .backdrop .data {
-    display: flex;
-    flex-direction: column;
+
+    position: relative;
    }
 
    .backdrop .data .text_data {
@@ -285,13 +285,33 @@
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  padding-left: 42px;
    }
+ 
+   .backdrop .data .input-icon {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    left: 15px;
+    top: 44px;
+   }
+
 
 .backdrop .data .input_comment {
   width: 448px;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+}
+
+.backdrop .data .input_comment::placeholder {
+  font-family: var(--principal-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .backdrop .conditions_text{

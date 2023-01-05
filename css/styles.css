@@ -129,6 +129,13 @@
         fill: currentColor;
        }
 
+       .header-container-three .third-text:hover,
+       .header-container-three .icon-head-envelope:has(+ .third-text:hover) {
+         color: var(--brand-color);
+       }
+
+
+
        .icon-head-phone {
         color:#757575;
         fill: currentColor;
@@ -162,7 +169,10 @@
          .header-container-three .third-text:focus {
           color:var(--brand-color);
          }
- 
+         .header-container-three .third-text:hover,
+         .header-container-three .icon-head-phone:has(+ .third-text:hover) {
+           color: var(--brand-color);
+         }
 
    /* dark-board-modal-window*/
    
@@ -296,7 +306,7 @@
    }
  
 
-   .backdrop .data .input_data:focus-within{
+   .Abackdrop .data .input_data:focus-within{
     border: 1px solid var(--brand-color);
    }
    
@@ -306,7 +316,17 @@
     height: 14px;
     left: 15px;
     top: 44px;
+    color: black;
+    fill: currentColor;
    }
+
+
+   .backdrop .data .input_data:focus-within,
+   .backdrop .data .input-icon:has(+ .input_data:focus-within)  {
+    border: 1px solid var(--brand-color);
+    fill: currentColor;
+   }
+    
 
 
 .backdrop .data .input_comment {
@@ -325,6 +345,7 @@
 .backdrop .data .input_comment:focus-within{
   border: 1px solid var(--brand-color);
  }
+
 
 
 .backdrop .data .input_comment::placeholder {

@@ -320,14 +320,15 @@
     fill: currentColor;
    }
 
-
-   .backdrop .data .input_data:focus-within,
-   .backdrop .data .input-icon:has(+ .input_data:focus-within)  {
-    border: 1px solid var(--brand-color);
-    fill: currentColor;
+   .backdrop .input_data:focus {
+   border: 1px solid var(--brand-color);
    }
-    
+   .backdrop .input_data:focus+.input-icon {
+    fill: var(--brand-color);
+   }
 
+  
+  
 
 .backdrop .data .input_comment {
   width: 448px;

@@ -244,8 +244,6 @@
 
    }
 
-   /* TASK6*/
-
    .backdrop .modal {
     display: flex;
     flex-direction: column;
@@ -260,7 +258,6 @@
     align-items: center;
    }
 
-   /* TASK6*/
    .backdrop .title {
     font-family: var(--principal-text);
     font-style: normal;
@@ -276,11 +273,8 @@
 
 
    .backdrop .data {
-
     position: relative;
    }
-
-  
 
 
    .backdrop .data .text_data {
@@ -311,11 +305,11 @@
    }
    
    .backdrop .data .input-icon {
-    position: absolute;
+    position: relative;
     width: 14px;
     height: 14px;
-    left: 15px;
-    top: 44px;
+    left: -94%;
+    top: 2px;
     color: black;
     fill: currentColor;
    }
@@ -392,8 +386,6 @@ line-height: 30px;
 color: var(--general-color);
 margin-top: -8px;
  }
-
-   /* TASK6*/
 
    .is-hidden {
     display: none;
@@ -732,8 +724,6 @@ margin-top: -8px;
         color:#FFFFFF;
         }
   
-   /* TASK6*/
-
   .suscription{
     display: flex;
   }
@@ -753,7 +743,6 @@ margin-top: -8px;
     color:var(--general-color);
    }
    
-
 
    .input_subscription {
     width: 358px;
@@ -777,9 +766,6 @@ margin-top: -8px;
     padding-right: 15px;
     padding-left: 16px;
    }
-
-
-
 
 
    .subscription_button {
@@ -808,10 +794,6 @@ margin-top: -8px;
       margin-bottom: -5px;
       margin-left: 20px;
    }
-
-   /* TASK6*/
-
-
 
 
 
@@ -880,8 +862,6 @@ margin-top: -8px;
  background-color:var(--general-color);
  margin-bottom: 0px;
   }
-
-   /* TASK5*/
 
    .briefcase-card {
    display: block;
